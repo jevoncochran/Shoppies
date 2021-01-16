@@ -12,7 +12,7 @@ const MovieProvider = (props) => {
 
   const returnSearch = (query) => {
     axios
-      .get(`http://www.omdbapi.com/?apikey=c55641f6&s=${query}`)
+      .get(`https://www.omdbapi.com/?apikey=c55641f6&s=${query}`)
       .then((res) => {
         console.log(res.data);
         setSearch(query);

@@ -13,7 +13,7 @@ const Nominations = () => {
           <p className="noms-movie">
             {movie.Title} ({movie.Year})
           </p>
-          <img className="noms-movie-poster" src={movie.Poster} />
+          <img className="noms-movie-poster" alt={movie.Title} src={movie.Poster} />
           <button className="noms-btn" onClick={() => removeFromNoms(movie)}>
             Remove
           </button>

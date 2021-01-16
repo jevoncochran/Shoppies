@@ -1,0 +1,35 @@
+.results {
+  background-color: #fff;
+  padding: 2%;
+  width: 49%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.results-headline {
+  background-color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+.results-movie-div {
+  display: flex;
+  margin-bottom: 3%;
+  align-items: center;
+  background-color: #fff;
+}
+
+.results-movie {
+  font-size: 1.5rem;
+  margin-right: 2%;
+  background-color: #fff;
+}
+
+.results-btn {
+  font-size: 1.5rem;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: green;
+}
